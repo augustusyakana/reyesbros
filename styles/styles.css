@@ -8,7 +8,7 @@ body {
 }
 
 .findUs {
-    background: orangered;
+    background: rgba(224, 33, 33, 1);
     margin-top: -10px;
     height: 40px;
 
@@ -20,9 +20,15 @@ body {
     font-size: 13px;
 }
 
+.findUs p, .findUs img {
+    margin-top: 25px;
+}
+
 .findUs img {
     width: 1.5em;
     height: 1.5em;
+
+    margin-bottom: 15px;
 }
 
 .socialMedia {
@@ -56,7 +62,6 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     gap: 2em;
 }
 
@@ -67,3 +72,7 @@ nav ul li {
     color: inherit;
 }
 
+.banner img {
+    width: 100%;
+    position: relative;
+}
